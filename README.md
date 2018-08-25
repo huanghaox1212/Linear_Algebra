@@ -24,7 +24,7 @@ $T$函数是求矩阵的转置矩阵。
 【运行错误】对角矩阵  
 错误代码：
 ```cpp
-virtual inline matrix_type matrix_cast(mtype num,size_type s=2){
+inline matrix_type matrix_cast(mtype num,size_type s=2){
 	matrix_type ans(s,s);for(reg size_type i=0;i<s;++i)ans[i][i]=num;
 }
 ```
